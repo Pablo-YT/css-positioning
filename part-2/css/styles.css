@@ -1,3 +1,6 @@
+
+
+
 *,
 *::before,
 *::after {
@@ -16,7 +19,8 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 21%;
+  float:left;
 }
 
 figure {
@@ -24,6 +28,44 @@ figure {
 }
 
 .film {
-  width: 50%;
+  width: 70%;
   margin: 40px auto;
+  border: 1px solid #bdbcbc;
+  padding: 20px;
+  height: 300px;
+  position: relative;
 }
+
+.film-poster {
+  display: inline;
+  position: relative;
+  height: 100px;
+  width: 50px;
+}
+
+div.film-details {
+  display: inline-block;
+  width: 65%;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+
+.action-watch-later {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: red;
+}
+
+
+
+div.action-like {
+  color: red;
+  right: 8px;
+  position: absolute;
+  bottom: 8px;
+}
+  p.film-description{
+    line-height: 18px;
+  }
